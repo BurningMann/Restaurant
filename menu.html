@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Bronze Snake</title>
+	<meta content="Restoran" name="description">
+	<meta content="clipPath, svg, effect, layout, expansion, images, grid, polygon" name="keywords">
+	<meta content="My Name" name="author">
+	<link href="img/cobra_snake.jpg" rel="shortcut icon">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/demo-menu.css" rel="stylesheet" type="text/css">
+	<link href="css/preloader.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css"><!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	<script>
+	      if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+	          var root = document.getElementsByTagName('html')[0];
+	          root.setAttribute('class', 'ff');
+	      };
+	</script>
+	<style>
+	   .gm-style-pbc{
+	   display:none !important;
+	   
+	   }
+
+	</style>
+</head>
+<body class="demo-4">
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+	<header class="codrops-header">
+		<div id="menu" role='navigation'>
+			<div class="nav-toggle">
+				<span></span>
+			</div>
+			<ul>
+				<li>
+					<a href="index.html">Главная</a>
+				</li>
+				<li>
+					<a href="about.html">О нас</a>
+				</li>
+				<li>
+					<a class="current-demo" href="menu.html">Меню</a>
+				</li>
+				<li>
+					<a class="go_tocontacts" href="#contacts">Контакты</a>
+				</li>
+				<li>
+					<a class="register" href="#">Бронировать</a>
+				</li>
+				<li>
+					<a href="gallery.html">Галерея</a>
+				</li>
+				<li>
+					<a href="contact%20us.html">Связь</a>
+				</li>
+			</ul><span class="translate"><a href="#">EN</a></span>
+		</div>
+		<div class="logoName">
+			<h1>Меню</h1>
+		</div>
+		<div class="menu2">
+			<div class="nav-toggle">
+				<span></span>
+			</div>
+			<ul>
+				<li>
+					<a href="index.html">Главная</a>
+				</li>
+				<li>
+					<a href="about.html">О нас</a>
+				</li>
+				<li>
+					<a class="current-demo" href="menu.html">Меню</a>
+				</li>
+				<li>
+					<a class="go_tocontacts" href="#contacts">Контакты</a>
+				</li>
+				<li>
+					<a class="register" href="#">Бронировать</a>
+				</li>
+				<li>
+					<a href="gallery.html">Галерея</a>
+				</li>
+				<li>
+					<a href="contact%20us.html">Связь</a>
+				</li>
+			</ul><span class="translate"><a href="#">EN</a></span>
+		</div>
+		<div id="menu3">
+			<ul>
+				<li>
+					<a href="index.html">Главная</a>
+				</li>
+				<li>
+					<a href="about.html">О нас</a>
+				</li>
+				<li>
+					<a class="current-demo" href="menu.html">Меню</a>
+				</li>
+				<li>
+					<a class="go_tocontacts" href="#contacts">Контакты</a>
+				</li>
+				<li>
+					<a class="register" href="#">Бронировать</a>
+				</li>
+				<li>
+					<a href="gallery.html">Галерея</a>
+				</li>
+				<li>
+					<a href="contact%20us.html">Связь</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div id="box"></div>
+	<div class="content">
+		<div class="container">
+			<div class="jt_row jt_row-fluid row visible">
+				<div class="subtitle">
+					<div class="col-md-12 jt_col column_container">
+						<div class="menu_title" style="margin-top: 80px;">
+							Закуски
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Итальянский сэт закусок на двоих
+								<div class="detail">
+									<p>Пармская ветчина, гуакомоле, перец печеный, томаты вяленые, оливки, мини моцарелла, чиабатта 1/301</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Итальянский сэт закусок на четверых
+								<div class="detail">
+									<p>Пармская ветчина, гуакомоле, перец печеный, томаты вяленые, оливки, мини моцарелла, креветки, сыр дор блю, тунец, картофель фри, кетчуп, мини багет 1/771</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Ассорти пивных закусок XXL
+								<div class="detail">
+									<p>Луковые кольца, куриные наггетсы, хлебные палочки, сыр сулугуни, соус цезарь, соус сладкий чили 1/822</p><span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Сэндвич с овощами гриль, сладким соусом чили и картофель фри
+								<div class="detail">
+									<p>Перец , баклажан, цуккини, картофель фри, соус сладкий чили, кетчуп, хлеб пшенично ржаной 1/190</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Сэндвич с ветчиной, сыром, томатом и картофель фри
+								<div class="detail">
+									<p>Ветчина, сыр, томат, картофель фри, кетчуп хлеб пшенично ржаной 1/210</p><span class="price">$17.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Сезонное меню
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Сельдь под шубой с красной икрой и перепелиным яйцом
+								<div class="detail">
+									<p>ПФиле сельди, яйцо перепелиное, отварные овощи: картофель, морковь, свекла; соус цезарь, икра красная (1/170)</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Салат из свеклы груши с голубым сыром
+								<div class="detail">
+									<p>Салаты: ромен, родичио, чернослив, груша свежая, свекла отварная, грецкий орех, сыр «Дор-Блю», оливковое масло, крем соус бальзамический (1/250)</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Аинтопф по немецки
+								<div class="detail">
+									<p>Картофель, лук, морковь, перец свежий, стручковая фасоль, сельдерей, лук порей, шампиньоны, грибы белые , грудинка подкопченная, цукини, куриное филе, помидоры свежие (1/401)</p><span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Кислые щи со свиной корейкой
+								<div class="detail">
+									<p>Капуста квашенная, морковь, лук репчатый, томатное пюре, свиная корейка, сметана (250/70/30/1)</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Рождественская утка с вишневым соусом
+								<div class="detail">
+									<p>Утка филе, мед , лук репчатый, анис, чеснок, имбирь, пюре из яблок и сельдерея, томаты черри, зелень (240/150/17)</p><span class="price">$17.99</span>
+								</div>
+							</li>
+							<li>Аппетитные свиные ребрышки с гарниром
+								<div class="detail">
+									<p>Свиные ребрышки , грудинка к/в, капуста квашенная , картофель отварной, горчица, помидоры черри, зелень (500/250/50/15/1)</p><span class="price">$17.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Салаты
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Салат Греческий
+								<div class="detail">
+									<p>томат, огурец, перец сладкий, салат ромен, маслины, сыр фетаки 1/200</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Салат с креветками и трюфельным маслом
+								<div class="detail">
+									<p>огурцы свежие,огурцы консервированные, картофель, шампиньоны, креветки, филе цыпленка, масло трюфельное, соус майонез 1/254</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Салат с Пармской ветчиной и сыром пармезан
+								<div class="detail">
+									<p>салат ромен, томаты черри , Пармская ветчина, яйцо перепелиное , соус майонез 1/282</p><span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Салат с говядиной и авокадо
+								<div class="detail">
+									<p>филе говядины, авокадо, огурец, фасоль стручковая, перец сладкий, томат, салат ромен, масло оливковое 1/330</p><span class="price">$7.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Паста
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Фарфале с беконом и креветками
+								<div class="detail">
+									<p>фарфалле, креветки, бекон, шампиньоны, сливки 1/237</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Спагетти с овощами и соусом песто
+								<div class="detail">
+									<p>спагетти, цуккини, перец, томаты черри, маслины, соус песто 1/315</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Фузили со шпинатом и говядиной
+								<div class="detail">
+									<p>фузили, филе говядины, шпинат, сливки 1/331</p><span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Паста неро с морепродуктами
+								<div class="detail">
+									<p>спагети с чернилами каракатицы, кальмар, креветки 1/291</p><span class="price">$7.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Супы
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Овощной суп из чечевицы
+								<div class="detail">
+									<p>чечевица, лук, морковь, фасоль стручковая, перец сладкий, томат 1/250</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>чечевица, лук, морковь, фасоль стручковая, перец сладкий, томат 1/250
+								<div class="detail">
+									<p>грибы белые, шампиньоны, сливки, коньяк 1/250</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>грибы белые, шампиньоны, сливки, коньяк 1/250
+								<div class="detail">
+									<p>томаты, кальмар, креветки, филе хека 1/305</p><span class="price">$9.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Блюда от шеф повара
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Семга с картофельным пюре и соусом из пряных трав
+								<div class="detail">
+									<p>филе семги, картофель, соус из пряных трав 1/336</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Сибас на гриле с лимоном и томатами черри
+								<div class="detail">
+									<p>сибас, томат черри, лимон 1/326</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Буженина с картофельными дольками под соусом из красного вина
+								<div class="detail">
+									<p>шея свиная , картофель жареный , розмарин, соус винный 1/361</p><span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Стейк из говядины с розмарином под перечно сливочным соусом
+								<div class="detail">
+									<p>филе говядины, соус перечный на сливках 1/352</p><span class="price">$7.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Хиты белорусской и немецкой кухни
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Драники со сметаной
+								<div class="detail">
+									<p>картофель, сметана, специи 1/340</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Картофельные клецки с беконом , белыми грибами в сметанном соусе
+								<div class="detail">
+									<p>клецки картофельные, белые грибы, бекон, соус сметанный 1/306</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Драники с острыми колбасками и глазуньей
+								<div class="detail">
+									<p>драники, колбаски из говядины с перцем, грудинка, яйцо 1/454</p><span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Фирменный шницель по-Венски с салатом из "земляных яблок"
+								<div class="detail">
+									<p>филе свинины, панировочные сухари, картофель, яблоки, бекон 1/390</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Шницель из цыпленка с картофельным пюре
+								<div class="detail">
+									<p>филе цыпленка, панировочные сухари, картофель 1/320</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Мясные колбаски гриль с сыром и картофельным пюре
+								<div class="detail">
+									<p>филе свинины, филе птицы, сыр сулугуни, картофель 1/302</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Острые колбаски гриль с картофельным пюре
+								<div class="detail">
+									<p>филе говядины, филе птицы, картофель, смесь перца 1/302</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Колбаски гриль из птицы и вяленных томатов с картофельным пюре
+								<div class="detail">
+									<p>филе птицы, томат вяленый, картофель 1/302</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Мясные колбаски гриль с розмарином и картофельным пюре
+								<div class="detail">
+									<p>филе цыплят, филе свинины, филе говядины, розмарин, картофель 1/302</p><span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Ассорти колбасок на 3-4 персоны
+								<div class="detail">
+									<p>мясные колбаски гриль с сыром, острые мясные колбаски гриль, колбаски гриль из птицы и вяленных томатов, мясные колбаски гриль с розмарином, мясные колбаски гриль, картофель по деревенски, капуста квашеная, огуцы маринованные, кетчуп, горчица, соус сладкий чили 1/1202&gt;</p><span class="price">$7.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Гарниры
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Картофельное пюре
+								<div class="detail">
+									1/150<span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Картофель фри
+								<div class="detail">
+									1/200<span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Картофель жаренный с чесноком и розмарином
+								<div class="detail">
+									1/130<span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Фирменный салат из "земляных яблок"
+								<div class="detail">
+									1/201<span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Капуста брокколи припущенная
+								<div class="detail">
+									1/100<span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Зеленая стручковая фасоль припущенная
+								<div class="detail">
+									1/100<span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Микс-салат (смесь листовых салатов)
+								<div class="detail">
+									1/100<span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Овощи гриль
+								<div class="detail">
+									1/225<span class="price">$7.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Десерты
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Шоколадный брауни
+								<div class="detail">
+									1/102<span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Фирменный чизкейк с соусом Сабайон
+								<div class="detail">
+									1/200<span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Яблочный штрудель с соусом Тоффи и мороженым
+								<div class="detail">
+									1/236<span class="price">$9.99</span>
+								</div>
+							</li>
+							<li>Вишневый крамбл
+								<div class="detail">
+									1/241<span class="price">$7.99</span>
+								</div>
+							</li>
+							<li>Легкий десерт с курагой, йогуртом и кранчи
+								<div class="detail">
+									1/241<span class="price">$7.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Хлеб
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Французская булочка с сезамом
+								<div class="detail">
+									1/60<span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Французская булочка с чесноком
+								<div class="detail">
+									1/60<span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Чиабатта
+								<div class="detail">
+									1/90<span class="price">$9.99</span>
+								</div>
+							</li>
+						</ul>
+						<div class="menu_title">
+							Горячие напитки
+						</div>
+						<div class="voffset10"></div>
+						<ul class="menu">
+							<li>Монтальто
+								<div class="detail">
+									<p>варенье грецкого ореха, лимонный фрэш, мед, мята 1/224</p><span class="price">$14.49</span>
+								</div>
+							</li>
+							<li>Имбирно-пряничный Латте
+								<div class="detail">
+									<p>кофе, молоко, сироп имбирно-пряничный 1/205</p><span class="price">$20.50</span>
+								</div>
+							</li>
+							<li>Медово-имбирный чай
+								<div class="detail">
+									<p>мед, имбирь, лимон, апельсин, корица, гвоздика, карамельный сироп 1/260</p><span class="price">$9.99</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="contacts">
+			<p style="font-family: MontserratSemiBold; display: inline-block;margin-bottom: 20px; font-size:60px;">Контакты</p>
+			<p style="font-family: MontserratLight;color:black;font-size:25px;">Г. МИНСК, УЛ.КАЛИНОВСКОГО 53/3</p>
+			<p style="font-family: MontserratLight;color:black;font-size:17px;">ЕЖЕДНЕВНО 7:00 - 23:00</p>
+			<p style="font-family: MontserratLight;color:black;font-size:17px;">Завтраки: 7:00 — 10:00</p>
+			<p style="font-family: MontserratLight;color:black;font-size:17px;">Бизнес-ланчи: 12:00 — 15:00</p>
+			<div class="contacts-number">
+				<p>Бронирование столиков</p>
+				<p>+375 29 136 60 29</p>
+			</div>
+			<p id="icons"><a href="https://vk.com/id107565446" target="_blank"><img src="img/icon-set1_03.png"></a> <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png"></a> <a href="https://twitter.com" target="_blank"><img src="img/twitter.png"></a> <a href="https://www.instagram.com/?hl=ru" target="_blank"><img src="img/instagram.png"></a></p>
+			<div id="gmap" style="border-top: 10px solid gray;border-bottom: 10px solid gray;"></div>
+		</div>
+		<footer id="footer">
+			<div>
+				<p>Ресторан "Bronze Snake"<br>
+				ООО «Поливектор», УНП: 190476301<br>
+				Юридический адрес: г.Минск,<br>
+				пл.Свободы, 23, каб.325 (пом.2)<br>
+				Зарегистрирован в Торговом реестре<br>
+				26.07.2006, №36395</p>
+			</div>
+		</footer>
+	
+	<!-- /container -->
+	<!-- JS -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSpCsqQB2kIqmRDqDf3Jx_TxbfuzXwRe8&callback=initMap">
+	</script> 
+	<script src="js/jquery-3.2.1.min.js">
+	</script> 
+	<script src="js/jquery-ui.min.js">
+	</script> 
+	<script src="js/script.js">
+	</script> 
+	<script>
+	 $(window).on('load', function () {
+	   $preloader = $('#preloader'),
+	     $loader = $preloader.find('#loader');
+	   $loader.fadeOut();
+	   $preloader.delay(350).fadeOut('slow');
+	 });
+	</script>
+</body>
+</html>
