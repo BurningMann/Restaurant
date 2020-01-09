@@ -130,7 +130,7 @@
 		<div class="contact-box">
 			<div id="gmap"></div>
 			<div class="contact-selector">
-				<h2>Свяжитесь с нами<!-- Get In touch --></h2>
+				<h2>Свяжитесь с нами</h2>
 				<form action="send.php" id="contact-form" method="POST" name="contact-form" novalidate="novalidate">
 					<div class="form-group">
 						<label>Имя *</label> <input name="username" placeholder="" required="" type="text">
@@ -164,7 +164,8 @@
 		</div>
 	</footer><!-- /container -->
 	<!-- JS -->
-	 
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSpCsqQB2kIqmRDqDf3Jx_TxbfuzXwRe8&callback=initMap">
+	</script> 
 	<script src="js/jquery-3.2.1.min.js">
 	</script> 
 	<script src="js/jquery-ui.min.js">
@@ -173,8 +174,6 @@
 	</script> 
 	<script src="js/script.js">
 	</script> 
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSpCsqQB2kIqmRDqDf3Jx_TxbfuzXwRe8&callback=initMap">
-	</script>
 	<script>
 	 $(window).on('load', function () {
 	   $preloader = $('#preloader'),
